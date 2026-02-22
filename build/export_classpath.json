@@ -2,13 +2,13 @@
   "projectPath": ":",
   "classpaths": {
     "test": [
-      "/home/derluuz/Downloads/PlaytimeCommand/build/classes/java/test",
-      "/home/derluuz/Downloads/PlaytimeCommand/build/resources/test"
+      "/home/derluuz/Antigravity/PlaytimeCommand/build/classes/java/test",
+      "/home/derluuz/Antigravity/PlaytimeCommand/build/resources/test"
     ],
     "main": [
-      "/home/derluuz/Downloads/PlaytimeCommand/build/classes/java/main",
-      "/home/derluuz/Downloads/PlaytimeCommand/build/resources/main",
-      "/home/derluuz/Downloads/PlaytimeCommand/build/devlibs/SimplePlaytimeTracker-1.1.0-dev.jar"
+      "/home/derluuz/Antigravity/PlaytimeCommand/build/classes/java/main",
+      "/home/derluuz/Antigravity/PlaytimeCommand/build/resources/main",
+      "/home/derluuz/Antigravity/PlaytimeCommand/build/devlibs/PlaytimeCommand-1.1.0-dev.jar"
     ]
   }
 }
