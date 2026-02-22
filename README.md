@@ -1,6 +1,6 @@
 # PlaytimeCommand
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/playtimecommand?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/project/PlaytimeCommand)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/playtimecommand?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/playtimecommand-simple-playtime-tracker-leaderboard)
 [![Versions](https://img.shields.io/modrinth/game-versions/playtimecommand?logo=minecraft)](https://modrinth.com/project/PlaytimeCommand)
 [![Fabric](https://img.shields.io/badge/loader-fabric-blue?logo=fabric)](https://fabricmc.net/)
 
