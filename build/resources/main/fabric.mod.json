@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "playtimecommand",
+  "version": "1.1.0",
+  "name": "PlaytimeCommand",
+  "description": "Track player activity, view leaderboards, and manage playtime stats - even for offline players!",
+  "authors": [
+    "DerLuuz"
+  ],
+  "license": "GPL-3.0",
+  "icon": "icon.svg",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "me.derluuz.playtimecommand.PlaytimeCommand"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20"
+  }
+}

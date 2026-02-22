@@ -1,0 +1,14 @@
+{
+  "projectPath": ":",
+  "classpaths": {
+    "test": [
+      "/home/derluuz/Downloads/PlaytimeCommand/build/classes/java/test",
+      "/home/derluuz/Downloads/PlaytimeCommand/build/resources/test"
+    ],
+    "main": [
+      "/home/derluuz/Downloads/PlaytimeCommand/build/classes/java/main",
+      "/home/derluuz/Downloads/PlaytimeCommand/build/resources/main",
+      "/home/derluuz/Downloads/PlaytimeCommand/build/devlibs/SimplePlaytimeTracker-1.1.0-dev.jar"
+    ]
+  }
+}
