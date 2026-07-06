@@ -1,10 +1,10 @@
-# PlaytimeCommand
+# SimplePlaytimeCommand
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/playtimecommand?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/playtimecommand-simple-playtime-tracker-leaderboard)
 [![Versions](https://img.shields.io/modrinth/game-versions/playtimecommand?logo=minecraft)](https://modrinth.com/project/PlaytimeCommand)
 [![Fabric](https://img.shields.io/badge/loader-fabric-blue?logo=fabric)](https://fabricmc.net/)
 
-Playtime Command is a lightweight server-side Fabric mod that allows players to check their own playtime or look up the playtime of any other player — whether online or offline.
+SimplePlaytimeCommand is a lightweight server-side Fabric mod that allows players to check their own playtime or look up the playtime of any other player — whether online or offline.
 
 ### ✨ Features
 - **No setup required** — Works straight out of the box with zero configuration needed.
