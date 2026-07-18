@@ -16,10 +16,10 @@
 
 ### 🖼️ Screenshots
 **Chat output**
-![Chat Showcase](https://codeberg.org/DerLuuz/PlaytimePlus/src/commit/cac2604caf372a0d8a2d7a7aa6b54365a2f62d80/src/main/resources/Chat.png)
+![Chat Showcase](https://codeberg.org/DerLuuz/PlaytimePlus/raw/commit/cac2604caf372a0d8a2d7a7aa6b54365a2f62d80/src/main/resources/Chat.png)
 
 **Leaderboard view**
-![Leaderboard](https://codeberg.org/DerLuuz/PlaytimePlus/src/commit/cac2604caf372a0d8a2d7a7aa6b54365a2f62d80/src/main/resources/Leaderboard.png)
+![Leaderboard](https://codeberg.org/DerLuuz/PlaytimePlus/raw/commit/cac2604caf372a0d8a2d7a7aa6b54365a2f62d80/src/main/resources/Leaderboard.png)
 
 ### 💻 Commands
 - `/playtime` — View your own playtime
