@@ -1,18 +1,18 @@
-# SimplePlaytimeCommand
+# PlaytimePlus
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/playtimecommand?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/playtimecommand-simple-playtime-tracker-leaderboard)
-[![Versions](https://img.shields.io/modrinth/game-versions/playtimecommand?logo=minecraft)](https://modrinth.com/project/PlaytimeCommand)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/PlaytimePlus?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/PlaytimePlus)
 [![Fabric](https://img.shields.io/badge/loader-fabric-blue?logo=fabric)](https://fabricmc.net/)
 
-SimplePlaytimeCommand is a lightweight server-side Fabric mod that allows players to check their own playtime or look up the playtime of any other player — whether online or offline.
+**PlaytimePlus** is a lightweight, server-side Fabric mod for tracking and displaying player activity — built from scratch for the Fabric ecosystem.
 
 ### ✨ Features
 - **No setup required** — Works straight out of the box with zero configuration needed.
-- **Reliable playtime data** — Reads directly from Minecraft's built-in statistics, so the playtime shown is always accurate.
+- **Reliable playtime data** — Reads directly from Minecraft's built-in statistics for accurate results.
 - **Offline player lookup** — View the playtime of players who aren't currently online.
-- **Leaderboard** — Displays a ranked list of the most active players on the server.
+- **Interactive leaderboard** — Clickable page navigation to browse through the most active players.
+- **Player removal** — Remove players from tracking (e.g. Carpet bots) with `/playtime remove <name>`.
 - **Geyser compatible** — Fully supports Bedrock players via Geyser, including their usernames.
-- **Minimal footprint** — Extremely lightweight, with virtually no performance impact. Designed to stay compatible across Minecraft updates without needing frequent mod updates.
+- **Minimal footprint** — Extremely lightweight, with virtually no performance impact.
 - **Update notifications** — Checks for new versions on startup and notifies you in the server console.
 
 ### 🖼️ Screenshots
@@ -28,18 +28,19 @@ SimplePlaytimeCommand is a lightweight server-side Fabric mod that allows player
 ### 💻 Commands
 - `/playtime` — View your own playtime
 - `/playtime <username>` — View another player's playtime (works for online and offline players)
-- `/playtime --top <page>` — Browse the playtime leaderboard
+- `/playtime --top <page>` — Browse the playtime leaderboard (clickable navigation)
+- `/playtime remove <username>` — Remove a player from tracking (OP only)
 - `/playtime --about` — Display mod info
 - `/playtime --help` — Show available commands
 
 # Download
-You can download the mod [here](https://modrinth.com/project/PlaytimeCommand).
+You can download the mod on [Modrinth](https://modrinth.com/mod/PlaytimePlus).
 
 # Development
 > [!WARNING]
 > This section is meant for developers who want to contribute to the mod or build it locally.
 > 
-> If you just want to use the mod, you can ignore this and [download the mod](https://github.com/DerLuuz/PlaytimeCommand?tab=readme-ov-file#download) instead.
+> If you just want to use the mod, you can ignore this and [download the mod](https://modrinth.com/mod/PlaytimePlus) instead.
 
 > [!NOTE]
 > You need to have [Git](https://git-scm.com/) & [JDK 21](https://adoptium.net/temurin/releases?version=21&os=any&arch=any) installed on your computer.
@@ -48,7 +49,7 @@ To build the mod locally, you have to:
 1. Clone the repository and navigate to it
 
    ```
-   git clone https://github.com/DerLuuz/PlaytimeCommand; cd PlaytimeCommand
+   git clone https://codeberg.org/DerLuuz/PlaytimePlus; cd PlaytimePlus
    ``` 
 2. Build the mod using Gradle
 

@@ -1,0 +1,7 @@
+.gradle/
+build/
+bin/
+.vscode/
+jdk21/
+jdk25/
+*.log

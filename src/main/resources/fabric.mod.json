@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "playtimecommand",
+  "id": "playtimeplus",
   "version": "${version}",
-  "name": "PlaytimeCommand",
-  "description": "Track player activity, view leaderboards, and manage playtime stats - even for offline players!",
+  "name": "PlaytimePlus",
+  "description": "A lightweight Fabric mod to track, compare, and display player activity with leaderboards, offline lookups, and clickable navigation.",
   "authors": [
     "DerLuuz"
   ],
@@ -12,7 +12,7 @@
   "environment": "server",
   "entrypoints": {
     "main": [
-      "me.derluuz.playtimecommand.PlaytimeCommand"
+      "me.derluuz.playtimeplus.PlaytimePlus"
     ]
   },
   "depends": {
