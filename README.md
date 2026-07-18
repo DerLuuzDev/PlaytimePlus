@@ -1,5 +1,4 @@
 # PlaytimePlus
-
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/PlaytimePlus?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/PlaytimePlus)
 [![Fabric](https://img.shields.io/badge/loader-fabric-blue?logo=fabric)](https://fabricmc.net/)
 
@@ -17,13 +16,10 @@
 
 ### 🖼️ Screenshots
 **Chat output**
-
-![Chat Showcase](https://raw.githubusercontent.com/DerLuuz/PlaytimeCommand/refs/heads/main/images/chat_showcase.png)
+![Chat Showcase](https://codeberg.org/DerLuuz/PlaytimePlus/raw/commit/2af4fe011840abd2bb32e5ffc27f811604c6b240/src/main/resources/Chat.png)
 
 **Leaderboard view**
-
-![Leaderboard](https://raw.githubusercontent.com/DerLuuz/PlaytimeCommand/refs/heads/main/images/leaderboard.png)
-
+![Leaderboard](https://codeberg.org/DerLuuz/PlaytimePlus/raw/commit/2af4fe011840abd2bb32e5ffc27f811604c6b240/src/main/resources/Leaderboard.png)
 
 ### 💻 Commands
 - `/playtime` — View your own playtime
@@ -47,12 +43,10 @@ You can download the mod on [Modrinth](https://modrinth.com/mod/PlaytimePlus).
 
 To build the mod locally, you have to:
 1. Clone the repository and navigate to it
-
    ```
    git clone https://codeberg.org/DerLuuz/PlaytimePlus; cd PlaytimePlus
    ``` 
 2. Build the mod using Gradle
-
     **Linux**
     ```
     ./gradlew build
