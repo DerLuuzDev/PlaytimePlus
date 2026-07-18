@@ -30,10 +30,11 @@ public class RootCommand {
             Commands.CommandSelection environment) {
         dispatcher.register(Commands.literal("playtime")
                 .executes(RootCommand::execute)
-                .then(Commands.argument("player", StringArgumentType.word())
-                        .suggests(ALL_PLAYERS)
-                        .executes(RootCommand::executeOtherPlayer))
-                .then(Commands.literal("--top")
+                .then(Commands.literal("view")
+                        .then(Commands.argument("player", StringArgumentType.word())
+                                .suggests(ALL_PLAYERS)
+                                .executes(RootCommand::executeOtherPlayer)))
+                .then(Commands.literal("top")
                         .executes(TopCommand::execute)
                         .then(Commands.argument("page", com.mojang.brigadier.arguments.IntegerArgumentType.integer(1))
                                 .executes(TopCommand::execute)))
@@ -42,9 +43,9 @@ public class RootCommand {
                         .then(Commands.argument("player", StringArgumentType.word())
                                 .suggests(ALL_PLAYERS)
                                 .executes(RemoveCommand::execute)))
-                .then(Commands.literal("--about")
+                .then(Commands.literal("about")
                         .executes(AboutCommand::execute))
-                .then(Commands.literal("--help")
+                .then(Commands.literal("help")
                         .executes(HelpCommand::execute)));
     }
 
@@ -53,7 +54,7 @@ public class RootCommand {
 
         // ask for username if console
         if (!source.isPlayer()) {
-            source.sendFailure(Component.literal("Please specify a player: /playtime <player>"));
+            source.sendFailure(Component.literal("Please specify a player: /playtime view <player>"));
             return 0;
         }
 

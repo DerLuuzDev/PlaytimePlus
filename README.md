@@ -27,11 +27,11 @@
 
 ### 💻 Commands
 - `/playtime` — View your own playtime
-- `/playtime <username>` — View another player's playtime (works for online and offline players)
-- `/playtime --top <page>` — Browse the playtime leaderboard (clickable navigation)
+- `/playtime view <username>` — View another player's playtime (works for online and offline players)
+- `/playtime top <page>` — Browse the playtime leaderboard (clickable navigation)
 - `/playtime remove <username>` — Remove a player from tracking (OP only)
-- `/playtime --about` — Display mod info
-- `/playtime --help` — Show available commands
+- `/playtime about` — Display mod info
+- `/playtime help` — Show available commands
 
 # Download
 You can download the mod on [Modrinth](https://modrinth.com/mod/PlaytimePlus).

@@ -183,7 +183,7 @@ public class TopCommand {
                 Style prevStyle = Style.EMPTY
                         .withColor(ChatFormatting.AQUA)
                         .withClickEvent(new ClickEvent.RunCommand(
-                                "/playtime --top " + (finalPage - 1)))
+                                "/playtime top " + (finalPage - 1)))
                         .withHoverEvent(new HoverEvent.ShowText(
                                 Component.literal("Go to page " + (finalPage - 1))
                                         .withStyle(ChatFormatting.GREEN)));
@@ -201,7 +201,7 @@ public class TopCommand {
                 Style nextStyle = Style.EMPTY
                         .withColor(ChatFormatting.AQUA)
                         .withClickEvent(new ClickEvent.RunCommand(
-                                "/playtime --top " + (finalPage + 1)))
+                                "/playtime top " + (finalPage + 1)))
                         .withHoverEvent(new HoverEvent.ShowText(
                                 Component.literal("Go to page " + (finalPage + 1))
                                         .withStyle(ChatFormatting.GREEN)));
