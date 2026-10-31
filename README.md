@@ -36,7 +36,7 @@ You can download the mod on [Modrinth](https://modrinth.com/mod/playtime-plus).
 > [!WARNING]
 > This section is meant for developers who want to contribute to the mod or build it locally.
 > 
-> If you just want to use the mod, you can ignore this and [download the mod](https://modrinth.com/mod/PlaytimePlus) instead.
+> If you just want to use the mod, you can ignore this and [download the mod](https://modrinth.com/mod/playtime-plus) instead.
 
 > [!NOTE]
 > You need to have [Git](https://git-scm.com/) & [JDK 21](https://adoptium.net/temurin/releases?version=21&os=any&arch=any) installed on your computer.
