@@ -44,7 +44,7 @@ You can download the mod on [Modrinth](https://modrinth.com/mod/playtime-plus).
 To build the mod locally, you have to:
 1. Clone the repository and navigate to it
    ```
-   git clone https://codeberg.org/DerLuuz/PlaytimePlus; cd PlaytimePlus
+   git clone https://github.com/DerLuuzDev/PlaytimePlus.git; cd PlaytimePlus
    ``` 
 2. Build the mod using Gradle
     **Linux**
