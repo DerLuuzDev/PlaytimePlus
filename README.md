@@ -1,8 +1,8 @@
-# PlaytimePlus
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/PlaytimePlus?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/playtime-plus)
+# Playtime Plus
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/playtime-plus?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/playtime-plus)
 [![Fabric](https://img.shields.io/badge/loader-fabric-blue?logo=fabric)](https://fabricmc.net/)
 
-**PlaytimePlus** is a lightweight, server-side Fabric mod for tracking and displaying player activity — built from scratch for the Fabric ecosystem.
+**Playtime Plus** is a lightweight, server-side Fabric mod for tracking and displaying player activity — built from scratch for the Fabric ecosystem.
 
 ### ✨ Features
 - **No setup required** — Works straight out of the box with zero configuration needed.
